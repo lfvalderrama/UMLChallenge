@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lvalderrama\\Documents\\UMLChallenge\\challenge_punto1\\challenge.csproj",
+      "projectUniqueName": "C:\\Users\\lvalderrama\\Documents\\UMLChallenge\\UMLChallenge\\challenge_punto1\\challenge.csproj",
       "projectName": "challenge",
-      "projectPath": "C:\\Users\\lvalderrama\\Documents\\UMLChallenge\\challenge_punto1\\challenge.csproj",
+      "projectPath": "C:\\Users\\lvalderrama\\Documents\\UMLChallenge\\UMLChallenge\\challenge_punto1\\challenge.csproj",
       "packagesPath": "C:\\Users\\lvalderrama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lvalderrama\\Documents\\UMLChallenge\\challenge_punto1\\obj\\",
+      "outputPath": "C:\\Users\\lvalderrama\\Documents\\UMLChallenge\\UMLChallenge\\challenge_punto1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
