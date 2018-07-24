@@ -20,19 +20,12 @@ namespace challenge
             this.Items = items;
         }
 
-        public Order(DateTime modified, OrderStatus status, string shippingAddress, LineItem item)
-        {
-            this.Modified = modified;
-            this.Status = status;
-            this.ShippingAddress = shippingAddress;
-            this.items.Add(item);
-        }
-
         public DateTime Modified { get => modified; set => modified = value; }
         public OrderStatus Status { get => status; set => status = value; }
         public string ShippingAddress { get => shippingAddress; set => shippingAddress = value; }
         public double Total { get => total; set => total = value; }
-        internal List<LineItem> Items { get => items; set => items = value; }
+        internal List<LineItem> Items { get => Items1; set => Items1 = value; }
+        internal List<LineItem> Items1 { get => items; set => items = value; }
 
         public void addItem(LineItem i)
         {
@@ -44,7 +37,7 @@ namespace challenge
             double total = 0;
             foreach (LineItem item in this.Items)
             {
-                total += item.Price;
+                total += item.Price * item.Quantity;
             }
             return total;
         }
